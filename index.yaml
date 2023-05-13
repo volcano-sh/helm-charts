@@ -1,0 +1,40 @@
+apiVersion: v1
+entries:
+  volcano:
+  - apiVersion: v1
+    appVersion: 1.7.0
+    created: "2023-05-13T16:45:30.371140638+08:00"
+    description: A Helm chart for Volcano
+    digest: d6f9d287bd3a1949c7edf4b67e464fc3a5b9c1d514eb48a199da802fef4b0578
+    home: https://volcano.sh
+    icon: https://raw.githubusercontent.com/volcano-sh/charts/master/docs/images/volcano-logo.png
+    maintainers:
+    - email: wang.platform@gmail.com
+      name: william-wang
+    - email: kevinwzf0126@gmail.com
+      name: kevin-wangzefeng
+    name: volcano
+    sources:
+    - https://github.com/volcano-sh/volcano
+    urls:
+    - https://github.com/volcano-sh/helm-charts/releases/download/volcano-1.7.0/volcano-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v1
+    appVersion: 1.6.0
+    created: "2023-05-13T16:45:30.001769856+08:00"
+    description: A Helm chart for Volcano
+    digest: 96ea69eb740a643c862303c551bdc0ca1b27d0659f475305d6ab97b3bc640ef1
+    home: https://volcano.sh
+    icon: https://raw.githubusercontent.com/volcano-sh/charts/master/docs/images/volcano-logo.png
+    maintainers:
+    - email: klaus1982.cn@gmail.com
+      name: k82cn
+    - email: kevinwzf0126@gmail.com
+      name: kevin-wangzefeng
+    name: volcano
+    sources:
+    - https://github.com/volcano-sh/volcano
+    urls:
+    - https://github.com/volcano-sh/helm-charts/releases/download/volcano-1.6.0/volcano-1.6.0.tgz
+    version: 1.6.0
+generated: "2023-05-13T16:45:30.371152697+08:00"
