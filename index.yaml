@@ -74,6 +74,24 @@ entries:
     - https://github.com/volcano-sh/helm-charts/releases/download/volcano-1.11.0-network-topology-preview.0/volcano-1.11.0-network-topology-preview.0.tgz
     version: 1.11.0-network-topology-preview.0
   - apiVersion: v1
+    appVersion: 1.10.1
+    created: "2025-04-09T02:00:33.05213109Z"
+    description: A Helm chart for Volcano
+    digest: a72ca320ca0e092661c8ee2e74a65dbbf3d43144728cfb563bb5ec15b88eec36
+    home: https://volcano.sh
+    icon: https://raw.githubusercontent.com/volcano-sh/charts/master/docs/images/volcano-logo.png
+    maintainers:
+    - email: klaus1982.cn@gmail.com
+      name: k82cn
+    - email: kevinwzf0126@gmail.com
+      name: kevin-wangzefeng
+    name: volcano
+    sources:
+    - https://github.com/volcano-sh/volcano
+    urls:
+    - https://github.com/volcano-sh/helm-charts/releases/download/volcano-1.10.1/volcano-1.10.1.tgz
+    version: 1.10.1
+  - apiVersion: v1
     appVersion: 1.10.0
     created: "2024-09-19T06:48:49.784816853Z"
     description: A Helm chart for Volcano
@@ -217,4 +235,4 @@ entries:
     urls:
     - https://github.com/volcano-sh/helm-charts/releases/download/volcano-1.5/volcano-1.5.tgz
     version: "1.5"
-generated: "2025-04-08T11:39:28.273706511Z"
+generated: "2025-04-09T02:00:33.052247069Z"
