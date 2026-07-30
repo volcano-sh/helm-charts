@@ -2,6 +2,28 @@ apiVersion: v1
 entries:
   volcano:
   - apiVersion: v2
+    appVersion: 1.15.1
+    created: "2026-07-30T01:49:12.605622727Z"
+    dependencies:
+    - name: jobflow
+      repository: file://./charts/jobflow
+      version: 1.0.0
+    description: A Helm chart for Volcano
+    digest: a8135a7430fd48a57d791faac3bbea210106611a826b22ed089ae2dbaad1e7c3
+    home: https://volcano.sh
+    icon: https://raw.githubusercontent.com/volcano-sh/charts/master/docs/images/volcano-logo.png
+    maintainers:
+    - email: klaus1982.cn@gmail.com
+      name: k82cn
+    - email: kevinwzf0126@gmail.com
+      name: kevin-wangzefeng
+    name: volcano
+    sources:
+    - https://github.com/volcano-sh/volcano
+    urls:
+    - https://github.com/volcano-sh/helm-charts/releases/download/volcano-1.15.1/volcano-1.15.1.tgz
+    version: 1.15.1
+  - apiVersion: v2
     appVersion: 1.15.0
     created: "2026-06-01T01:50:51.684557227Z"
     dependencies:
@@ -689,4 +711,4 @@ entries:
     urls:
     - https://github.com/volcano-sh/helm-charts/releases/download/volcano-1.5/volcano-1.5.tgz
     version: "1.5"
-generated: "2026-07-30T01:44:47.780809509Z"
+generated: "2026-07-30T01:49:12.60587418Z"
